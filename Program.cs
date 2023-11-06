@@ -10,7 +10,7 @@ class Program
         string choixYN = "y";
         bool boolchoix = true;
 
-        var apiKey = "";
+        var apiKey = "API_KEY";
         var api = new OpenAIAPI(apiKey);
 
         while (boolchoix)
